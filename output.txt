@@ -1,0 +1,162 @@
+class cat
+{
+ protected: 
+   string name, colour;
+   int weight, description;
+
+ public:
+
+  static const int catdsc_fat = 1, catdsc_hairy = 2, catdsc_orange = 3,
+                    catdsc_black = 4, catdsc_tabby = 5, catdsc_white = 6,
+                    catdsc_three_legged = 7;
+
+   string get_name() const
+   { return name; }
+
+   void set_name(const string & v)
+   { name = v; }
+
+   string get_colour() const
+   { return colour; }
+
+   void set_colour(const string & v)
+   { colour = v; }
+
+   int get_weight() const
+   { return weight; }
+
+   void set_weight(const int & v)
+   { weight = v; }
+
+   int get_description() const
+   { return description; }
+
+   void set_description(const int & v)
+   { description = v; }
+
+};
+
+class person
+{
+ protected: 
+   string firstname, lastname, address, city, state, phone;
+   int ssn, balance;
+   cat * pet;
+
+ public:
+   string favourite_colour;
+
+   string get_firstname() const
+   { return firstname; }
+
+   void set_firstname(const string & v)
+   { firstname = v; }
+
+   string get_lastname() const
+   { return lastname; }
+
+   void set_lastname(const string & v)
+   { lastname = v; }
+
+   string get_address() const
+   { return address; }
+
+   void set_address(const string & v)
+   { address = v; }
+
+   string get_city() const
+   { return city; }
+
+   void set_city(const string & v)
+   { city = v; }
+
+   string get_state() const
+   { return state; }
+
+   void set_state(const string & v)
+   { state = v; }
+
+   string get_phone() const
+   { return phone; }
+
+   void set_phone(const string & v)
+   { phone = v; }
+
+   int get_ssn() const
+   { return ssn; }
+
+   void set_ssn(const int & v)
+   { ssn = v; }
+
+   int get_balance() const
+   { return balance; }
+
+   void set_balance(const int & v)
+   { balance = v; }
+
+   const cat * get_pet() const
+   { return pet; }
+
+   void set_pet(const cat * & v)
+   { pet = v; }
+
+   string get_favourite_colour() const
+   { return favourite_colour; }
+
+   void set_favourite_colour(const string & v)
+   { favourite_colour = v; }
+
+};
+
+class treenode
+{
+ protected: 
+   person * data;
+   treenode * left, * right;
+
+ public:
+
+   person * get_data() const
+   { return data; }
+
+   void set_data(person * & v)
+   { data = v; }
+
+   treenode * get_left() const
+   { return left; }
+
+   void set_left(treenode * & v)
+   { left = v; }
+
+   treenode * get_right() const
+   { return right; }
+
+   void set_right(treenode * & v)
+   { right = v; }
+
+};
+
+const int type_one = 1, type_two = 2, type_three = 3, type_four = 4,
+          type_five = 5, type_six = 6, type_seven = 7, type_eight = 8,
+          type_nine = 9, type_ten = 10, type_eleven = 11, type_twelve = 12,
+          type_thirteen = 13, type_fourteen = 14, type_fifteen = 15,
+          type_sixteen = 16, type_seventeen = 17, type_eighteen = 18,
+          type_nineteen = 19, type_twenty = 20;
+
+class thingy
+{
+
+ public:
+
+  static const int thingyconst_one = 1, thingyconst_two = 2,
+                    thingyconst_three = 3, thingyconst_four = 4,
+                    thingyconst_five = 5, thingyconst_six = 6,
+                    thingyconst_seven = 7, thingyconst_eight = 8,
+                    thingyconst_nine = 9, thingyconst_ten = 10,
+                    thingyconst_eleven = 11, thingyconst_twelve = 12,
+                    thingyconst_thirteen = 13, thingyconst_fourteen = 14,
+                    thingyconst_fifteen = 15, thingyconst_sixteen = 16,
+                    thingyconst_seventeen = 17, thingyconst_eighteen = 18;
+
+};
+

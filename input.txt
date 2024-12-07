@@ -1,0 +1,27 @@
+class cat
+string - name colour
+int - weight description
+names catdsc - fat hairy orange black tabby white three_legged
+end
+
+class person
+string - firstname lastname address city state phone
+int - ssn balance
+const cat * - pet
+pub
+string - favourite_colour
+end
+
+class treenode
+person * - data
+treenode * - left right
+end
+
+names type - one two three four five six seven eight nine ten eleven twelve -
+  thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty
+
+class thingy
+names thingyconst - one two three four five six seven eight nine ten eleven -
+  twelve thirteen fourteen fifteen sixteen seventeen eighteen
+end
+
